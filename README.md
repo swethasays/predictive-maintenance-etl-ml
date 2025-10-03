@@ -19,11 +19,11 @@ The objective of this project is to design a scalable data pipeline that:
 ## 🛠 Tech Stack
 - **Ingestion**: Kafka (simulate IoT sensor streaming)  
 - **Processing**: Spark Structured Streaming  
-- **Storage**: Delta Lake / Snowflake  
+- **Storage**: Snowflake  
 - **Transformations**: dbt (star schema modeling)  
 - **Orchestration**: Apache Airflow  
 - **Analytics**: Power BI  
-- **Machine Learning**: scikit-learn / XGBoost  
+- **Machine Learning**: XGBoost (with scikit-learn baselines)
 - **Deployment**: FastAPI (REST API for model inference)  
 
 ---
@@ -40,7 +40,7 @@ S. Matzka, *Explainable Artificial Intelligence for Predictive Maintenance Appli
 ---
 
 ##  Features
-- Real-time ingestion of synthetic IoT machine data (Kafka → Spark → Snowflake/Delta Lake)  
+- Real-time ingestion of synthetic IoT machine data (Kafka → Spark → Snowflake)  
 - Automated data transformations and star schema creation with dbt  
 - Workflow scheduling and monitoring with Airflow  
 - ML pipeline for predicting machine failures (XGBoost)  
