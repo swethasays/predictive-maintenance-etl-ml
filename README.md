@@ -1,7 +1,8 @@
 # Predictive Maintenance ETL + ML
 
 ## Project Overview
-This project implements an **end-to-end predictive maintenance system** using the **AI4I 2020 dataset**.  
+*This project implements an **end-to-end predictive maintenance system** using the **AI4I 2020 dataset***.  
+
 The pipeline simulates IoT-style streaming of machine sensor data, performs automated ETL/ELT for processing and warehousing, and integrates an ML model to predict equipment failures. Predictions are served via a FastAPI service and results are visualized in Power BI dashboards.
 
 ---
