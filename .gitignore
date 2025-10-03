@@ -1,0 +1,22 @@
+# Virtual environments
+venv/
+.venv/
+.venv311/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (optional: keep only raw dataset in /data)
+*.csv
+*.zip
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
