@@ -4,7 +4,7 @@ from datetime import datetime
 
 model = joblib.load("/Users/swetha/predictive-maintenance-etl-ml/ml/xgb_model.pkl")
 features = json.load(open("/Users/swetha/predictive-maintenance-etl-ml/ml/feature_list.json"))
-df = pd.read_csv("/Users/swetha/predictive-maintenance-etl-ml/data/ai4i2020_featured.csv")
+df = pd.read_csv("/Users/swetha/predictive-maintenance-etl-ml/data/ai4i_stream_silver.csv")
 
 df.columns = (df.columns
                 .str.strip()
